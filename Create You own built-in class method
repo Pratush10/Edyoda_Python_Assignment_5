@@ -1,0 +1,17 @@
+class power:
+    def pow(x, n):
+        if n==0:
+            return 1
+        else:
+            return x**n
+
+x = int(input("Enter x :"))
+n = int(input("Enter n :"))
+print("Output :{}".format(pow(x, n)))
+
+
+
+Output: 
+Enter x :10
+Enter n :2
+Output :100
